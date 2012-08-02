@@ -1,0 +1,14 @@
+C:\Demo\SAF\SPDesignerCustomActivities\CustomActivities\bin\Debug\CustomActivities.dll
+C:\Demo\SAF\SPDesignerCustomActivities\CustomActivities\bin\Debug\CustomActivities.pdb
+C:\Demo\SAF\SPDesignerCustomActivities\CustomActivities\bin\Debug\Microsoft.SharePoint.Search.dll
+C:\Demo\SAF\SPDesignerCustomActivities\CustomActivities\bin\Debug\Microsoft.SharePoint.Search.xml
+C:\Demo\SAF\SPDesignerCustomActivities\CustomActivities\obj\Debug\ResolveAssemblyReference.cache
+C:\Demo\SAF\SPDesignerCustomActivities\CustomActivities\obj\Debug\CustomActivities.dll
+C:\Demo\SAF\SPDesignerCustomActivities\CustomActivities\obj\Debug\CustomActivities.pdb
+C:\Demo\SPDCustomActivities\CustomActivities\bin\Debug\CustomActivities.dll
+C:\Demo\SPDCustomActivities\CustomActivities\bin\Debug\CustomActivities.pdb
+C:\Demo\SPDCustomActivities\CustomActivities\bin\Debug\Microsoft.SharePoint.Search.dll
+C:\Demo\SPDCustomActivities\CustomActivities\bin\Debug\Microsoft.SharePoint.Search.xml
+C:\Demo\SPDCustomActivities\CustomActivities\obj\Debug\ResolveAssemblyReference.cache
+C:\Demo\SPDCustomActivities\CustomActivities\obj\Debug\CustomActivities.dll
+C:\Demo\SPDCustomActivities\CustomActivities\obj\Debug\CustomActivities.pdb

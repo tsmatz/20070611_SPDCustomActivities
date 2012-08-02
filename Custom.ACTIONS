@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowInfo Language="ja-jp">
+  <Actions Sequential="次に:" Parallel="および:">
+        <!-- Custom Activities (added by T. Matsuzaki) -->
+	<Action Name="Contoso 人事データベースからマネージャを取得する"
+	  ClassName="CustomActivities.MyFindManager"
+	  Assembly="CustomActivities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=07de7bd45da6740e"
+	  AppliesTo="all"
+	  Category="コア アクション">
+	  <RuleDesigner Sentence="%1 のマネージャを取得する (Output: %2 %3 %4 %5 %6) ">
+		<FieldBind Field="AccountName" DesignerType="SinglePerson" Text="このユーザ" Id="1"/>
+		<FieldBind Field="ManagerAccountName" DesignerType="ParameterNames" Text="マネージャのアカウント" Id="2"/>
+		<FieldBind Field="ManagerEmailAddress" DesignerType="ParameterNames" Text="マネージャの E メール" Id="3"/>
+		<FieldBind Field="ManagerDisplayName" DesignerType="ParameterNames" Text="マネージャの名前" Id="4"/>
+		<FieldBind Field="Outcome" DesignerType="ParameterNames" Text="状態" Id="5"/>
+		<FieldBind Field="SearchSuccessful" DesignerType="ParameterNames" Text="成功フラグ" Id="6"/>
+	  </RuleDesigner>
+	  <Parameters>
+		<Parameter Name="AccountName" Type="System.String, mscorlib" Direction="In" />
+		<Parameter Name="ManagerAccountName" Type="System.String, mscorlib" Direction="Out" />
+		<Parameter Name="ManagerEmailAddress" Type="System.String, mscorlib" Direction="Out" />
+		<Parameter Name="ManagerDisplayName" Type="System.String, mscorlib" Direction="Out" />
+		<Parameter Name="Outcome" Type="System.String, mscorlib" Direction="Out" />
+		<Parameter Name="SearchSuccessful" Type="System.Boolean, mscorlib" Direction="Out" />
+	  </Parameters>
+	</Action>
+  </Actions>
+</WorkflowInfo>
